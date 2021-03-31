@@ -12,6 +12,32 @@
 curl https://sh.rustup.rs -sSf | sh
 ```
 
+## Managing version rust
+Check rust version list
+```sh
+$ rustup toolchain list
+
+stable-x86_64-apple-darwin (default) (override)
+nightly-x86_64-apple-darwin
+```
+
+Install nightly:
+```sh
+$ rustup toolchain install nightly
+```
+
+Set to nightly :
+```sh
+$ rustup default nightly
+$ rustup override set nightly
+```
+
+Set to stable :
+```sh
+$ rustup default stable
+$ rustup override set stable
+```
+
 ## Build & Run
 ### 1. Start a new package with Cargo
 ```sh
