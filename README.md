@@ -1,5 +1,7 @@
 # Rust: hello_world
 
+![alt](assets/banner.png)
+
 5 minutes install & run rust.
 
 ## Introduction
